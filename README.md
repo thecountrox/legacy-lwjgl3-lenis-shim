@@ -17,3 +17,5 @@ Build with:
 ```bash
 ./gradlew build
 ```
+
+The GitHub Actions `Build` workflow can also be started manually from the repository's Actions tab. It uploads the built JAR as a workflow artifact.
