@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "legacy-lwjgl3",
 	"version": "${version}",
-	"name": "Legacy LWJGL3 dependency shim for Lenis",
-	"description": "Satisfies legacy-lwjgl3 metadata dependencies while Lenis provides the LWJGL compatibility layer.",
+	"name": "Legacy LWJGL3 dependency shim for Pylon",
+	"description": "Satisfies legacy-lwjgl3 metadata dependencies while Pylon provides the LWJGL compatibility layer.",
 	"environment": "client",
 	"depends": {
-		"lenis": "*"
+		"pylon": "*"
 	}
 }
