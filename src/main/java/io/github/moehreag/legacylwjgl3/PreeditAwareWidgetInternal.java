@@ -10,6 +10,6 @@ public final class PreeditAwareWidgetInternal {
 	}
 
 	public static void updateWidgetFocus(PreeditAwareWidget widget, boolean focused) {
-		// Lenis owns the SDL IME path; there is no legacy focus bridge to update.
+		// Pylon owns the SDL IME path; there is no legacy focus bridge to update.
 	}
 }
