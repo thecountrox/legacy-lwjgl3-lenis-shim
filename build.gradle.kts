@@ -26,7 +26,3 @@ tasks.processResources {
 		expand("version" to version)
 	}
 }
-
-tasks.jar {
-	archiveFileName.set("legacy-lwjgl3-lenis-shim-0.1.3.jar")
-}
