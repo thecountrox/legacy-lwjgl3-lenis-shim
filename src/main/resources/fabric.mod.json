@@ -1,6 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "legacy-lwjgl3",
+	"id": "legacy-lwjgl3-shim",
+	"provides": [
+		"legacy-lwjgl3"
+	],
 	"version": "${version}",
 	"name": "Legacy LWJGL3 dependency shim for Pylon",
 	"description": "Satisfies legacy-lwjgl3 metadata dependencies while Pylon provides the LWJGL compatibility layer.",
